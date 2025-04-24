@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+label, select {
+    font-size: 1.1em;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+.menu-section {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.menu-section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.stars span {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: gray;
+    padding: 0 2px;
+}
+.stars span.selected {
+    color: orange;
+}
